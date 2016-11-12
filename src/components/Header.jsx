@@ -6,7 +6,7 @@ export default React.createClass({
   render () {
     return (
       <div>
-        <Logo details="Kamon Harrell Github Linkedin" />
+        <Logo me="Kamon Harrell" github="Github" linkedin="Linkedin" />
       </div>
     )
   }
