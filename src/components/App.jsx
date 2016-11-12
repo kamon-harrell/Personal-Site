@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Header from './Header'
+
 export default React.createClass({
   render () {
     return (
-      <div className="container">
-        <img className="spinner" src="images/SealofWashingtonStateSeal.jpg" />
+      <div className='app-container'>
+        <Header />
       </div>
     )
   }
