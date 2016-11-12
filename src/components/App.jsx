@@ -4,7 +4,7 @@ export default React.createClass({
   render () {
     return (
       <div className="container">
-        <img className="spinner" src="images/SealofWashingtonStateSeal.jpg" />
+        <h1> Hello!</h1>
       </div>
     )
   }
