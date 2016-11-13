@@ -3,12 +3,13 @@
  * aebd38: moss green
  * 598234: deeper green
  */
+ .Logo {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
 
-
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.Picture {
+  width: 150px;
+  height: auto;
 }
