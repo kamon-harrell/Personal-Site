@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Logo from './Logo'
+import Header from './Header'
 
 export default React.createClass({
   render () {
     return (
         <div>
-          <Logo me={"Kamon Harrell"} github={"Github"} linkedin={"Linkedin"} />
+          <Header />
           <h1>ABOUT PAGE</h1>
         </div>
     )
