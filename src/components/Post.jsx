@@ -2,17 +2,12 @@ import React from 'react'
 
 export default React.createClass({
   render () {
+    const { title } = this.props
+
     return (
       <div className="Post">
-        {/* sudo code
-          <h3>{title}</h3>
-          <p>{moment(date).fromNow()}</p>
-
-
-          */}
-
-
-
+        <h2>{title}</h2>
+        <p>Lorem ipsum random words</p>
       </div>
     )
   }
