@@ -14,6 +14,7 @@ const Drop = props => {
         <DropdownButton title="Nav" id="bg-nested-dropdown">
           <MenuItem eventKey="1" href="/#/">Home</MenuItem>
           <MenuItem eventKey="2" href="#about">About</MenuItem>
+          <MenuItem eventKey="3" href="#projects">Projects</MenuItem>
         </DropdownButton>
       </ButtonGroup>
     </div>
